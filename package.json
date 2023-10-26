@@ -1,0 +1,23 @@
+{
+	"name": "learn",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vue-tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@tauri-apps/api": "^1.5.1",
+		"face-api.js": "^0.22.2",
+		"vue": "^3.3.4"
+	},
+	"devDependencies": {
+		"@types/node": "^20.8.7",
+		"@vitejs/plugin-vue": "^4.2.3",
+		"typescript": "^5.0.2",
+		"vite": "^4.4.5",
+		"vue-tsc": "^1.8.5"
+	}
+}
